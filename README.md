@@ -13,3 +13,9 @@ Follow these steps to run the code on Google Colab:
    ```bash
    %cd Single_SuperRes
    !python /content/Single_SuperRes/app.py --colab
+## **Test the Model**
+
+To test the model, use the following command:
+
+```bash
+!python inference.py -i [input folder] -o [output folder] --scale 4 --ckpt weights/SinSR_v1.pth --one_step --chop_size 256 --task SinSR
