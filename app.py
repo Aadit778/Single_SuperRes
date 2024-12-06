@@ -99,45 +99,8 @@ if __name__ == "__main__":
     
     sampler_dict = {"SinSR": None, "ResShift": None} 
 
-    title = "SinSR: Diffusion-Based Image Super-Resolution in a Single Step"
-    description = r"""
-    <b>Official Gradio demo</b> for <a href='https://github.com/wyf0912/SinSR' target='_blank'><b>SinSR: Diffusion-Based Image Super-Resolution in a Single Step</b></a>.<br>
-    🔥 SinSR is an efficient diffusion model designed for image super-resolution in a single diffusion step.<br>
-    """
-    article = r"""
-    If SinSR is helpful for your work, please help to ⭐ the <a href='https://github.com/wyf0912/SinSR' target='_blank'>Github Repo</a>. Thanks!
-    [![GitHub Stars](https://img.shields.io/github/stars/wyf0912/SinSR?affiliations=OWNER&color=green&style=social)](https://github.com/wyf0912/SinSR)
-
-    ---
-    If our work is useful for your research, please consider citing:
-    ```bibtex
-    @article{wang2023sinsr,
-      title={SinSR: Diffusion-Based Image Super-Resolution in a Single Step},
-      author={Wang, Yufei and Yang, Wenhan and Chen, Xinyuan and Wang, Yaohui and Guo, Lanqing and Chau, Lap-Pui and Liu, Ziwei and Qiao, Yu and Kot, Alex C and Wen, Bihan},
-      journal={arXiv preprint arXiv:2311.14760},
-      year={2023}
-    }
-    ```
-
-    📧 **Contact**
-
-    If you have any questions, please feel free to contact me via <b>yufei001@ntu.edu.sg</b>.
-    ![visitors](https://visitor-badge.laobi.icu/badge?page_id=wyf0912/SinSR)
-    """
+    title = "Single_SuperRes: Diffusion-Based Image Super-Resolution in a Single Step"
     
-
-    if args.colab:
-        examples=[
-            ['/content/SinSR/testdata/RealSet65/dog2.png', True, "SinSR", 12345],
-            ['/content/SinSR/testdata/RealSet65/bears.jpg', True, "SinSR", 12345],
-            ['/content/SinSR/testdata/RealSet65/oldphoto6.png', True, "SinSR", 12345],
-          ]
-    else:
-        examples=[
-            ['./testdata/RealSet65/dog2.png', True, "SinSR", 12345],
-            ['./testdata/RealSet65/bears.jpg', True, "SinSR", 12345],
-            ['./testdata/RealSet65/oldphoto6.png', True, "SinSR", 12345],
-          ]
         
     demo = gr.Interface(
         fn=predict,
