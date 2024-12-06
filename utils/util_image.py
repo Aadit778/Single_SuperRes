@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# Power by Zongsheng Yue 2021-11-24 16:54:19
 
 import sys
 import cv2
