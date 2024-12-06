@@ -7,7 +7,8 @@ Follow these steps to run the code on Google Colab:
    !git clone https://github.com/Aadit778/Single_SuperRes.git
 2. Install the required dependencies:
    ```bash
-!pip install -r /content/SingleSuperRes/requirements.txt
-4. Run the application:
+   !pip install -r /content/SingleSuperRes/requirements.txt
+
+3. Run the application:
 ```bash
 !python /content/SingleSuperRes/app.py --colab
