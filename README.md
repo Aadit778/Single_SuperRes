@@ -10,5 +10,5 @@ Follow these steps to run the code on Google Colab:
    !pip install -r /content/SingleSuperRes/requirements.txt
 
 3. Run the application:
-```bash
-!python /content/SingleSuperRes/app.py --colab
+   ```bash
+   !python /content/SingleSuperRes/app.py --colab
