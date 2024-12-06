@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# Power by Zongsheng Yue 2023-03-10 11:15:36
 
 import sys
 from pathlib import Path
