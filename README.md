@@ -11,4 +11,5 @@ Follow these steps to run the code on Google Colab:
 
 3. Run the application:
    ```bash
+   %cd Single_SuperRes
    !python /content/Single_SuperRes/app.py --colab
