@@ -1,4 +1,4 @@
-name: SinSR
+name: SinSR 
 channels:
   - xformers
   - pytorch
