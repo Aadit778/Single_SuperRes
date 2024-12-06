@@ -1,2 +1,13 @@
 # Run it on Colab
-You can run the code on Google Colab by clicking on the following link: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aadit778/SingleSuperRes/blob/colab-demo.ipynb)
+
+Follow these steps to run the code on Google Colab:
+
+1. Clone the repository:
+   ```bash
+   !git clone https://github.com/Aadit778/Single_SuperRes.git
+2. Install the required dependencies:
+   ```bash
+!pip install -r /content/SingleSuperRes/requirements.txt
+4. Run the application:
+```bash
+!python /content/SingleSuperRes/app.py --colab
