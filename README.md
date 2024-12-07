@@ -19,3 +19,9 @@ To test the model, use the following command:
 
 ```bash
 !python inference.py -i [input folder] -o [output folder] --scale 4 --ckpt weights/SinSR_v1.pth --one_step --chop_size 256 --task SinSR
+
+```
+
+To test the model with Ground Truth, use the following command:
+```bash
+!python inference.py -i testdata/imagenet256/lq/ -o results/SinSR/imagenet  -r testdata/imagenet256/gt/ --scale 4 --ckpt weights/SinSR_v1.pth --one_step --chop_size 256 --task SinSR
